@@ -1,4 +1,4 @@
-# transfer-local-remote
+# transfer local<-->remote
 
 ## creation 
 
@@ -23,5 +23,7 @@ git push -u origin master
 
 ## remote --> local
 ```
+git add README.md 
+git commit -m "another commit"
 git pull origin master
 ```
